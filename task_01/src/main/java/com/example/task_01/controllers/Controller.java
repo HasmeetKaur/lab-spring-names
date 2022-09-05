@@ -11,6 +11,6 @@ public class Controller {
 
     @GetMapping
     public Greeting newGreeting(){
-        return new Greeting("Alex","Good Afternoon!");
+        return new Greeting("Alex", newGreeting().getTimeOfDay());
     }
 }
